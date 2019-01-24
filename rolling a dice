@@ -13,7 +13,7 @@ Print
 While Loops
 """
 import random
-j = "yes"
+j = 1
 
 
 def roll():
@@ -25,3 +25,5 @@ while j == 1:
     print("The number thrown is: ", roll())
     j = input("Press 1 to roll again: ")
 print("Thanks for the input")
+
+

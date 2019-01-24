@@ -21,7 +21,7 @@ def roll():
     return i
 
 
-while j == "yes" or j == "YES":
+while j == 1:
     print("The number thrown is: ", roll())
-    j = input("Do you wish to roll again? ")
+    j = input("Press 1 to roll again: ")
 print("Thanks for the input")
